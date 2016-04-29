@@ -3,6 +3,6 @@ layout: default
 title: adding column with ID
 ---
 
-# Adding a column with an unique, auto-incrementing ID:
+# Adding a column
 
-`ALTER TABLE [table] ADD COLUMN [column] int NOT NULL auto-incrementing PRIMARY KEY;`
+Adding a column: `ALTER TABLE [table] ADD COLUMN [column] VARCHAR(120);
