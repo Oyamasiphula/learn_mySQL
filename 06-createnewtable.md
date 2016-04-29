@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Create Table 
+title: Create Table
 ---
 
 

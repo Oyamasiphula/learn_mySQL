@@ -1,6 +1,6 @@
 ---
 layout: default
-title: select database
+title: Select database
 ---
 
 # Select database
