@@ -42,7 +42,7 @@ Select records containing `[value]`: `SELECT * FROM [table] WHERE [column] LIKE 
 
 Select records starting with `[value]`: `SELECT * FROM [table] WHERE [column] LIKE '[value]%';`
 
-Select records starting with `val` and ending with `ue`: `SELECT * FROM [table] WHERE [column] LIKE '[val_ue]';`
+Select records starting with `val` and ending with `ue`: `SELECT * FROM [table] WHERE [column] LIKE '[value]';`
 
 Select a range: `SELECT * FROM [table] WHERE [column] BETWEEN [value1] and [value2];`
 
@@ -70,6 +70,42 @@ Use `--lock-tables=false` option for locked tables (more info [here](http://stac
 Import a database dump (more info [here](http://stackoverflow.com/a/21091197/1815847)): `mysql -u [username] -p -h localhost [database] < db_backup.sql`
 
 Logout: `exit;`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Aggregate functions
