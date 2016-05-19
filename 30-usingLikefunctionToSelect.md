@@ -1,8 +1,8 @@
 ---
 layout: default
-title: select records based value correlation between values.
+title: Select records starting with
 ---
 
-#Select records based on value simile to records or characters of records.
+# Select records based on the first char(acters) typed that are similar to other records.
 
-`[value]`: `SELECT * FROM [table] WHERE [column] LIKE '%[value]%';`
+`SELECT * FROM [table] WHERE [column] LIKE '[value]%';`
