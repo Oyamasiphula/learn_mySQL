@@ -1,14 +1,93 @@
 <footer class="site-footer">
   <nav class="main-nav" id="menu">
-    <ol>
-      {% assign currentpage = page.url %}
-      {% for page in site.pages %}
-        {% unless page.url contains ".css" %}
-          <li>
-            <a href="{{ site.baseurl }}{{ page.url }}" {% if currentpage == page.url %}class = "active"{% endif %}>{{ page.title }}</a>
-          </li>
-        {% endunless %}
-      {% endfor %}
-    </ol>
+     <ul>
+        <li>
+           <a href="{{ site.baseurl }}index.html" {% if page.url == "/" %}class = "active"{% endif %}>Lets first Welcome ourselves to mysql monitor</a>
+           <ul>
+               <li>
+                   <a href="{{ site.baseurl }}00-goCom.html" {% if page.url == "/00-goCom.html" %}class = "active"{% endif %}>Quicky Jump to a terminal</a>
+               </li>
+               <li>
+                   <a href="{{ site.baseurl }}01-gainingAccessOnMysql.html" {% if page.url == "/01-gainingAccessOnMysql.html" %}class = "active"{% endif %}>Gain Access to mysql</a>
+               </li>
+               <li>
+                   <a href="{{ site.baseurl }}02-accessmonitor.html" {% if page.url == "/02-accessmonitor.html" %}class = "active"{% endif %}>Access to a specific database</a>
+               </li>
+           </ul>
+      </li>
+         <li>
+           <a href="{{ site.baseurl }}DatabasesAndTables.html" {% if page.url == "/DatabasesAndTables.html" %}class = "active"{% endif %}>Databases and tables</a>
+           <ul>
+               <li>
+                   <a href="{{ site.baseurl }}05-createdb.html" {% if page.url == "/05-createdb.html" %}class = "active"{% endif %}>create a database</a>
+               </li>
+               <li>
+                   <a href="{{ site.baseurl }}04-selectdatabase.html" {% if page.url == "/04-selectdatabase.html" %}class = "active"{% endif %}>Select database</a>
+               </li>
+               <li>
+                   <a href="{{ site.baseurl }}03-showdb.html" {% if page.url == "/03-showdb.html" %}class = "active"{% endif %}>Show database list</a>
+               </li>
+               <li>
+                   <a href="{{ site.baseurl }}06-createnewtable.html" {% if page.url == "/06-createnewtable.html" %}class = "active"{% endif %}>Create new table</a>
+               </li>
+               <li>
+                   <a href="{{ site.baseurl }}07-showdatabasetable.html" {% if page.url == "/07-showdatabasetable.html" %}class = "active"{% endif %}>Show table</a>
+               </li>
+               <li>
+                   <a href="{{ site.baseurl }}08-cshowtableprop.html" {% if page.url == "/08-cshowtableprop.html" %}class = "active"{% endif %}>Show table properties</a>
+               </lid
+               <li>
+                   <a href="{{ site.baseurl }}09-alternativewayofaddingcol.html" {% if page.url == "/09-alternativewayofaddingcol.html" %}class = "active"{% endif %}>Add column using ALTER</a>
+               </li>
+               <li>
+                   <a href="{{ site.baseurl }}10-addingColumnusing.html" {% if page.url == "/10-addingColumnusing.html" %}class = "active"{% endif %}>Adding column with ID</a>
+               </li>
+               <li>
+                   <a href="{{ site.baseurl }}20-nowaddingbyani.html" {% if page.url == "/20-nowaddingbyani.html" %}class = "active"{% endif %}>Add column(auto increment)</a>
+               </li>
+               <li>
+                   <a href="{{ site.baseurl }}21-getcurrenttime.html" {% if page.url == "/21-getcurrenttime.html" %}class = "active"{% endif %}> MySQL NOW() Function</a>
+               </li>
+                    <a href="{{ site.baseurl }}22-insertingarecord.html" {% if page.url == "22-insertingarecord.html" %}class = "active"{% endif %}>Records insertion</a>
+               </li>
+               <li>
+                   <a href="{{ site.baseurl }}23-selectingarecord.html" {% if page.url == "/23-selectingarecord.html" %}class = "active"{% endif %}>Selecting records</a>
+               </li>
+
+               <li>
+                   <a href="{{ site.baseurl }}24-tableDetailsindepth.html" {% if page.url == "/24-tableDetailsindepth.html" %}class = "active"{% endif %}>Explanation of tables records
+                   </a>
+               </li>
+
+               <li>
+                   <a href="{{ site.baseurl }}25-selectTableParts.html" {% if page.url == "/25-selectTableParts.html" %}class = "active"{% endif %}>Selecting parts of records</a>
+               </li>
+               <li>
+                   <a href="{{ site.baseurl }}26-countItems.html" {% if page.url == "/26-countItems.html" %}class = "active"{% endif %}>Counting records</a>
+               </li>
+
+               <li>
+                   <a href="{{ site.baseurl }}27-count&group.html" {% if page.url == "/27-count&group.html" %}class = "active"{% endif %}>Counting and selecting grouped records</a>
+               </li>
+                <li>
+                   <a href="{{ site.baseurl }}28-selectAndCombine.html" {% if page.url == "/28-selectAndCombine.html" %}class = "active"{% endif %}>Counting and selecting grouped records</a>
+               </li>
+               <!-- <li>
+                   <a href="{{ site.baseurl }}29-showAspecificfieldBasedOnVals.html" {% if page.url == "/29-showAspecificfieldBasedOnVals.html" %}class = "active"{% endif %}>Select records containing</a>
+               </li>
+               <li>
+                   <a href="{{ site.baseurl }}30-usingLikefunctionToSelect.html" {% if page.url == "/30-usingLikefunctionToSelect.html" %}class = "active"{% endif %}>Select records starting with a specific character</a>
+               </li> -->
+               <!-- <li>
+                   <a href="{{ site.baseurl }}23-selectingarecord.html" {% if page.url == "/23-selectingarecord.html" %}class = "active"{% endif %}>Selecting records</a>
+               </li>
+
+               <li>
+                   <a href="{{ site.baseurl }}23-selectingarecord.html" {% if page.url == "/23-selectingarecord.html" %}class = "active"{% endif %}>Selecting records</a>
+               </li> -->
+
+           </ul>
+         </li>
+       </ul>
   </nav>
 </footer>
