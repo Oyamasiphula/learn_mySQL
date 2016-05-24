@@ -1,6 +1,6 @@
 ---
 layout : default
-title : Explain records
+title : Explanation of tables records
 ---
 
 # Let see our table details in depth
