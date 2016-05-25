@@ -4,6 +4,7 @@ title: Rename column or table using an _alias_
 ---
 
 # SQL aliases are used to temporarily rename a table or a column heading.
+
 *Now that you've just groked sql aliases let make use it :tada:*
 
 
