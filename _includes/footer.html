@@ -2,7 +2,7 @@
   <nav class="main-nav" id="menu">
      <ul>
         <li>
-           <a href="{{ site.baseurl }}index.html" {% if page.url == "/" %}class = "active"{% endif %}>Lets first Welcome ourselves to mysql monitor</a>
+           <a href="{{ site.baseurl }}index.html" {% if page.url == "/" %}class = "active"{% endif %}>Lets first Welcome ourselves to mysql monitor and say goodbye</a>
            <ul>
                <li>
                    <a href="{{ site.baseurl }}00-goCom.html" {% if page.url == "/00-goCom.html" %}class = "active"{% endif %}>Quicky Jump to a terminal</a>
@@ -13,8 +13,13 @@
                <li>
                    <a href="{{ site.baseurl }}02-accessmonitor.html" {% if page.url == "/02-accessmonitor.html" %}class = "active"{% endif %}>Access to a specific database</a>
                </li>
+               <li>
+                   <a href="{{ site.baseurl }}42-exitOnMysqlMonitor.html" {% if page.url == "/42-exitOnMysqlMonitor.html" %}class = "active"{% endif %}>Logout of mySQL monitor</a>
+               </li>
            </ul>
       </li>
+
+      <!--second category starts here-->
          <li>
            <a href="{{ site.baseurl }}DatabasesAndTables.html" {% if page.url == "/DatabasesAndTables.html" %}class = "active"{% endif %}>Databases and tables</a>
            <ul>
@@ -35,7 +40,7 @@
                </li>
                <li>
                    <a href="{{ site.baseurl }}08-cshowtableprop.html" {% if page.url == "/08-cshowtableprop.html" %}class = "active"{% endif %}>Show table properties</a>
-               </lid
+               </li>
                <li>
                    <a href="{{ site.baseurl }}09-alternativewayofaddingcol.html" {% if page.url == "/09-alternativewayofaddingcol.html" %}class = "active"{% endif %}>Add column using ALTER</a>
                </li>
@@ -48,6 +53,7 @@
                <li>
                    <a href="{{ site.baseurl }}21-getcurrenttime.html" {% if page.url == "/21-getcurrenttime.html" %}class = "active"{% endif %}> MySQL NOW() Function</a>
                </li>
+               <li>
                     <a href="{{ site.baseurl }}22-insertingarecord.html" {% if page.url == "22-insertingarecord.html" %}class = "active"{% endif %}>Records insertion</a>
                </li>
                <li>
@@ -55,8 +61,7 @@
                </li>
 
                <li>
-                   <a href="{{ site.baseurl }}24-tableDetailsindepth.html" {% if page.url == "/24-tableDetailsindepth.html" %}class = "active"{% endif %}>Explanation of tables records
-                   </a>
+                   <a href="{{ site.baseurl }}24-tableDetailsindepth.html" {% if page.url == "/24-tableDetailsindepth.html" %}class = "active"{% endif %}>Explanation of tables record</a>
                </li>
 
                <li>
@@ -81,7 +86,6 @@
                <li>
                    <a href="{{ site.baseurl }}31-selectValStartingWithVal.html" {% if page.url == "/31-selectValStartingWithVal.html" %}class = "active"{% endif %}>Select using (char)similarities</a>
                </li>
-
                <li>
                    <a href="{{ site.baseurl }}32-selectRange.html" {% if page.url == "/32-selectRange.html" %}class = "active"{% endif %}>Select a range</a>
                </li>
@@ -106,13 +110,40 @@
                <li>
                    <a href="{{ site.baseurl }}38-deletingTable.html" {% if page.url == "/38-deletingTable.html" %}class = "active"{% endif %}>Delete table</a>
                </li>
-               <!-- <li>
-                   <a href="{{ site.baseurl }}23-selectingarecord.html" {% if page.url == "/23-selectingarecord.html" %}class = "active"{% endif %}>Selecting records</a>
+               <li>
+                   <a href="{{ site.baseurl }}39-deletingDatabase.html" {% if page.url == "/39-deletingDatabase.html" %}class = "active"{% endif %}>Delete databases</a>
                </li>
 
                <li>
-                   <a href="{{ site.baseurl }}23-selectingarecord.html" {% if page.url == "/23-selectingarecord.html" %}class = "active"{% endif %}>Selecting records</a>
-               </li> -->
+                  <a href="{{ site.baseurl }}complexServerDataInformation.html" {% if page.url == "/complexServerDataInformation.html" %}class = "active"{% endif %}>Back up and restore MySQL databases(Methodologies)</a>
+                  <ul>
+                      <li>
+                          <a href="{{ site.baseurl }}40-waysOfExportingData.html" {% if page.url == "/40-waysOfExportingData.html" %}class = "active"{% endif %}>Ways of exporting/download data</a>
+                      </li>
+                      <li>
+                          <a href="{{ site.baseurl }}41-waysOfImportingData.html" {% if page.url == "/41-waysOfImportingData.html" %}class = "active"{% endif %}>Ways of importing/restoring data</a>
+                      </li>
+                      <li>
+                          <a href="{{ site.baseurl }}02-accessmonitor.html" {% if page.url == "/02-accessmonitor.html" %}class = "active"{% endif %}>Access to a specific database</a>
+                      </li>
+                  </ul>
+             </li>
+
+               <li>
+                  <a href="{{ site.baseurl }}aggregateFunctionsCategory.html" {% if page.url == "/aggregateFunctionsCategory.html" %}class = "active"{% endif %}>Aggregate functions</a>
+                  <ul>
+                      <li>
+                          <a href="{{ site.baseurl }}43-selectButWithoutuplicates.html" {% if page.url == "/43-selectButWithoutuplicates.html" %}class = "active"{% endif %}>Select Records but without duplicates</a>
+                      </li>
+                      <li>
+                          <a href="{{ site.baseurl }}44-sumOfItems.html" {% if page.url == "/44-sumOfItems.html" %}class = "active"{% endif %}>Sum up all the values</a>
+                      </li>
+                      <li>
+                          <a href="{{ site.baseurl }}02-accessmonitor.html" {% if page.url == "/02-accessmonitor.html" %}class = "active"{% endif %}>Access to a specific database</a>
+                      </li>
+                  </ul>
+             </li>
+
 
            </ul>
          </li>
