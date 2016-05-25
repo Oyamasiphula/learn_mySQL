@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Select but without duplicates
+title: Select Records but without duplicates
 ---
 
 # Now here we want to get minimize repetition of values.
